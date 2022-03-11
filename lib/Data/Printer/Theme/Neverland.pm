@@ -7,7 +7,7 @@ sub colors {
     number      => "\e[38;5;033m",         # numbers
     string      => "\e[38;5;179m",         # strings
     class       => "\e[38;5;148;1m",       # class names
-    method      => "\e[38;5;137m",       # method names
+    method      => "\e[38;5;137m",         # method names
     undef       => "\e[38;5;124;1m",       # the 'undef' value
     hash        => "\e[38;5;137m",         # hash keys
     regex       => "\e[38;5;214m",         # regular expressions
@@ -17,7 +17,7 @@ sub colors {
     lvalue      => "\e[38;5;229m",         # lvalue label
     format      => "\e[38;5;196m",         # format type
     repeated    => "\e[38;5;196m",         # references to seen values
-    caller_info => "\e[38;5;197;3;4m",       # details on what's being printed
+    caller_info => "\e[38;5;197;3;4m",     # details on what's being printed
     weak        => "\e[38;5;196m",         # weak references flag
     tainted     => "\e[38;5;196m",         # tainted flag
     unicode     => "\e[38;5;196m",         # utf8 flag
